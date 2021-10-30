@@ -1,0 +1,42 @@
+/* Header Start */
+
+header{
+    background: linear-gradient(rgba(0,0,255, 0.5),#0000ff73), url(../img/49.jpg) no-repeat center;
+    background-size: cover;
+    height: 900px;
+
+}
+
+.logo{
+    float: left;
+    margin-top: 90px;
+}
+
+nav.header-menu{
+    float: right;
+    margin-top: 90px;
+}
+
+nav.header-menu ul li{
+    display: inline-block;
+    margin-left: 50px;
+    border-bottom: 1px solid transparent;
+    
+    
+}
+nav.header-menu ul li:hover{
+    border-bottom: 1px solid #fff;
+    
+}
+
+
+nav.header-menu ul li a{
+    color: #fff;
+    font-size: 16px;
+    
+    letter-spacing: 1px;
+}
+
+a:hover{
+    text-decoration: none !important;
+  }
